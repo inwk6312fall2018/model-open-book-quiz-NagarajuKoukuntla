@@ -10,7 +10,7 @@ def initial_deck_cards():
 		numbers= {'1':'One','2':'Two','3':'Three','4':'Four','5':'Five','6':'Six','7':'Seven','8':'Eight','9':'Nine','10':'Ten','J':'Jack','Q':'Queen','K':'King'}
 
 		for item in suit:#looping and appending
-			for numbers,name in numbers.items():
+			for number,name in numbers.items():
 				cards.append((item,name))
 		print('Generated cards for the table')
 
