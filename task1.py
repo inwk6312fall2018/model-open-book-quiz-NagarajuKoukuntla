@@ -48,7 +48,6 @@ print(PT.draw_cards(5))
 
 #-------------------------------second way also tried from other source------
 
-#!/usr/bin/env python3
 import collections
 import itertools
 import random
@@ -66,7 +65,7 @@ class card:
     def __repr__(self):
         return self.numeral + "-" + self.suit
 
-class poker_hand():
+class poker_hand(): #class for checking types 
     def __init__(self, card_list):
         self.card_list = card_list
     def __repr__(self):
